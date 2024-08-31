@@ -42,11 +42,14 @@ Filter and Sort Options: Users can filter search results by relevance, date, pop
 10. Real-Time Notifications
 User Alerts: Sociale-X features a comprehensive notification system that informs users of significant activities such as new messages, likes, comments, shares, and profile views. Notifications are delivered in real-time and are designed to be non-intrusive, ensuring users are always informed without interrupting their experience.
 Customization: Users can customize their notification preferences, choosing which types of notifications they receive and how they are delivered (e.g., in-app alerts, emails).
+
+
 Technical Implementation
 Frontend (Client)
 React.js: The frontend of Sociale-X is developed using React.js, which provides a component-based architecture for building a dynamic and responsive user interface. The UI is structured with reusable components, enabling efficient development and easy maintenance.
 Context API: The Context API is employed to manage and distribute global states throughout the application. This setup allows for efficient handling of user sessions, settings, and authentication status across different components, ensuring a consistent experience for users.
 Firebase Integration: Firebase is integrated into the frontend for user authentication. The system manages user sessions, handles password recovery, and supports social logins, providing a comprehensive and secure authentication solution.
+
 Backend (Server)
 Node.js & Express.js: The backend server is built using Node.js and Express.js, creating a scalable environment for developing RESTful APIs. The server processes requests from the frontend, handles data, and interacts with the MongoDB database to manage user information, posts, and other content.
 MongoDB: MongoDB serves as the primary database for Sociale-X, storing all user data, posts, messages, and interactions. The database is managed using Mongoose, an ODM that provides schemas and models to enforce data integrity and consistency across the application.
